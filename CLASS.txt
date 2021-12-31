@@ -1,0 +1,27 @@
+class A{
+public void multiply()
+
+public void multiply(int x,int y)
+{
+system.out.println("multiply of both"*(x*y))
+}
+}
+class B extends A{
+public void multiply(int x,int y)
+{
+system.out.println("multiply of both"*(x*y))
+}
+}
+class main{
+public static void main(String arg[])
+{
+Main1 obj = New Main1()
+obj.multiply(11,12)
+obj.multiply(3,7)
+
+}
+
+}
+
+
+
